@@ -4,6 +4,20 @@
    Design system: DM Serif Display + Inter, navy/blue/gold palette
    ============================================================ */
 
+/* ─── GLOBAL: Container side padding for media-kit page ─── */
+.mk-hero .container,
+.mk-channel-section .container,
+.mk-audience .container,
+.mk-matrix-section .container,
+.mk-cta-section .container,
+.section-navy .container,
+.section-light .container,
+.section-white .container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-sizing: border-box;
+}
+
 /* ─── HERO ─── */
 .mk-hero {
   position: relative;
